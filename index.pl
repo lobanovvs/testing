@@ -1,9 +1,8 @@
 #!/usr/bin/perl -w
 
-use lib '/home/c/cv45412/perl5/lib/perl5/';
+use lib '/home/c/cv45412/perl5/lib/perl5/'; # CGI не установлен на выбранном мною хостинге по умолчанию, пришлось подключать как библиотеку
 use CGI;
 use DBI;
-use Data::Dumper;
 
 main();
 
